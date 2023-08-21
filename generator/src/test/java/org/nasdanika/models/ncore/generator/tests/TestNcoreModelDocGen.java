@@ -1,4 +1,4 @@
-package org.nasdanika.models.gitlab.ncore.tests;
+package org.nasdanika.models.ncore.generator.tests;
 
 import java.io.File;
 import java.io.IOException;
