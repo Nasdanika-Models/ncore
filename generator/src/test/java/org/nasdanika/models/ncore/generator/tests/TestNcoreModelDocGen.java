@@ -168,7 +168,7 @@ public class TestNcoreModelDocGen {
 		String pageTemplateResource = "page-template.yml";
 		URI pageTemplateURI = URI.createFileURI(new File(pageTemplateResource).getAbsolutePath());//.appendFragment("/");
 		
-		String siteMapDomain = "https://gitlab.models.nasdanika.org";		
+		String siteMapDomain = "https://ncore.models.nasdanika.org";		
 		ActionSiteGenerator actionSiteGenerator = new ActionSiteGenerator() {
 			
 			protected boolean isDeleteOutputPath(String path) {
