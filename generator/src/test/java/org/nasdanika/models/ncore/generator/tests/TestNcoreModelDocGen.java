@@ -98,7 +98,7 @@ public class TestNcoreModelDocGen {
 		EObjectReflectiveProcessorFactoryProvider eObjectReflectiveProcessorFactoryProvider = new EObjectReflectiveProcessorFactoryProvider(eObjectNodeProcessorReflectiveFactory);
 		Map<Element, ProcessorInfo<Object>> registry = eObjectReflectiveProcessorFactoryProvider.getFactory().createProcessors(configs.values(), false, progressMonitor);
 		
-		WidgetFactory gitLabProcessor = null;
+		WidgetFactory ncoreProcessor = null;
 		Collection<Throwable> resolveFailures = new ArrayList<>();		
 		URI baseActionURI = URI.createURI("https://ncore.models.nasdanika.org/");
 		
@@ -121,7 +121,7 @@ public class TestNcoreModelDocGen {
 							widgetFactoryNodeProcessor.resolve(packageURIMap.get(topLevelPackage), progressMonitor);
 							
 							if (topLevelPackage == NcorePackage.eINSTANCE) { 							
-								gitLabProcessor = widgetFactoryNodeProcessor;
+								ncoreProcessor = widgetFactoryNodeProcessor;
 							}
 						}
 					}
@@ -145,7 +145,7 @@ public class TestNcoreModelDocGen {
 		
 		File output = new File(actionModelsDir, "ncore.xmi");
 		Resource actionModelResource = actionModelsResourceSet.createResource(URI.createFileURI(output.getAbsolutePath()));
-		Collection<Label> labels = gitLabProcessor.createLabelsSupplier().call(progressMonitor, diagnosticConsumer);
+		Collection<Label> labels = ncoreProcessor.createLabelsSupplier().call(progressMonitor, diagnosticConsumer);
 		for (Label label: labels) {
 			if (label instanceof Link) {
 				Link link = (Link) label;
