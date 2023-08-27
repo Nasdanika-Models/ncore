@@ -100,7 +100,7 @@ public class TestNcoreModelDocGen {
 		
 		WidgetFactory ncoreProcessor = null;
 		Collection<Throwable> resolveFailures = new ArrayList<>();		
-		URI baseActionURI = URI.createURI("https://ncore.models.nasdanika.org/");
+		URI baseActionURI = URI.createURI("local://ncore.models.nasdanika.org/");
 		
 		Map<EPackage, URI> packageURIMap = Map.ofEntries(
 			Map.entry(EcorePackage.eINSTANCE, URI.createURI("https://ecore.models.nasdanika.org/")),			
