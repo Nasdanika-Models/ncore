@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="EN">
+  <head>
+    <title>Force Graph</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css" id="nsd-bootstrap-theme-stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jstree@3.3.11/dist/themes/default/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.1.0/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-vue@2.21.2/dist/bootstrap-vue.css">
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/dark-head.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jstree@3.3.11/dist/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-vue@2.21.2/dist/bootstrap-vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/components/table.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/components/table.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9BRJVLK8CC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9BRJVLK8CC');
+</script>    
+
+<script src="../../../search-documents.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/olivernn/lunr.js@v2.3.9/lunr.js"></script>
+
+<script>
+// Script for full-text search of JsTree
+
+window.nsdJsTreeSearchCallback = function(str, node) { 
+    var sf = new $.vakata.search(str, true, { caseSensitive : false, fuzzy : false }); 
+    if (sf.search(node.text).isMatch) {
+		return true;
+	} 
+    let searchResult = this.search(str); 
+    for (const sr in searchResult) {
+        if (searchResult[sr].ref === node.original['data-nsd-label-uuid']) {
+            return true;
+        } 
+    } 
+    return false; 
+}.bind(lunr(function () {
+			  this.ref('id');
+			  this.field('title');
+			  this.field('content');
+
+			  for (const key in searchDocuments) {
+				  let doc = searchDocuments[key];
+				this.add({
+					id: doc['action-uuid'],
+					title: doc.title,
+					path: doc.path,
+					content: doc.content
+				});  
+			  }
+			}));
+</script>
+</head>
+  <body>
+    <div tabindex="-1" id="nsd_4pd" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">Hover mouse over nodes elements to display tooltips.
+Double-click on nodes to navigate go documentation.
+Drag to rearrange, nodes will not stay in place once released.
+</div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid nsd-app-container">
+      <div class="row">
+        <div class="col nsd-app-header">
+          <a href="https://github.com/Nasdanika-Models" data-nsd-label-uuid="3a4a1ab9-6217-4305-b4cd-519cca48010f" class="nsd-app-header-title">
+            <img src="https://docs.nasdanika.org/images/nasdanika-logo.png" class="nsd-app-label-icon">Nasdanika Models</a>
+          <ul class="nav nsd-app-header-navs">
+            <li class="nav-item">
+              <a href="../../../search.html" data-nsd-label-uuid="6d3d994a-bfb9-48d2-9d16-8d6dd3e77e2e" class="nav-link"><span class="fas fa-search nsd-app-label-icon"></span>Search</a>
+            </li>
+            <li class="nav-item">
+              <a href="../../../glossary.html" data-nsd-label-uuid="339ad908-0be2-439f-9a7f-7572b96d8e45" class="nav-link"><span class="fas fa-book nsd-app-label-icon"></span>Glossary</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col nsd-app-navbar">
+          <ul class="navbar navbar-light navbar-expand-lg">
+            <a href="../../../index.html" data-nsd-label-uuid="70d082dd-d239-441d-9006-65cde78d46e2" class="navbar-brand">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EPackage.gif" class="nsd-app-label-icon">ncore</a>
+            <button type="button" data-toggle="collapse" data-target="#nsd_4ob" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="nsd_4ob" class="collapse navbar-collapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a href="../../../classifiers.html" data-nsd-label-uuid="ed20cfc8-cd4d-4a0a-ac15-21bd0dc1b1f9" class="nav-link">Classifiers</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../../../diagram.html" data-nsd-label-uuid="dcd7f51f-ba8d-44a5-8a40-27caca18d123" class="nav-link"><span class="fas fa-project-diagram nsd-app-label-icon"></span>Diagram</a>
+                </li>
+                <li class="nav-item">
+                  </li><li data-nsd-label-uuid="8f387ca1-4d88-46c7-a3e4-482fbfcb7540" class="dropdown">
+                    <a role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">
+                      <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png" class="nsd-app-label-icon">Graphs</a>
+                    <div class="dropdown-menu">
+                      <a href="../../../default-graph.html" data-nsd-label-uuid="4bf12b45-8067-456f-97ea-406c83362356" class="dropdown-item">Default Graph</a>
+                      <a href="../../../circular-layout-graph.html" data-nsd-label-uuid="f5606908-387f-4d1f-a939-d4186f750041" class="dropdown-item">Circular Graph</a>
+                      <a href="../../../force-layout-graph.html" data-nsd-label-uuid="876fdfbf-c0a3-40ec-b3fc-2876034d98a0" class="dropdown-item">Force Graph</a>
+                    </div>
+                  </li>
+                
+              </ul>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="row nsd-app-content-row">
+        <div class="col nsd-app-navigation-panel">
+          <div class="list-group list-group-flush">
+            <a href="../Adaptable/index.html" data-nsd-label-uuid="6f8e6669-34e6-4125-a506-9faaca954860" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EInterface.gif" class="nsd-app-label-icon"><i>Adaptable</i></a>
+            <a href="../Boolean/index.html" title="Represents boolean." data-nsd-label-uuid="278632d0-98c0-4fd9-9186-64d9d47c3b41" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Boolean</a>
+            <a href="../BooleanProperty/index.html" title="A named/keyed boolean." data-nsd-label-uuid="745e1a4e-b856-42f1-8dbc-aebfc4470ad0" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">BooleanProperty</a>
+            <a href="../Composite/index.html" title="A simple class for building hierarchies of documented entities. " data-nsd-label-uuid="31f0dcf2-9813-4514-a97b-9fb2fcb7c31a" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Composite</a>
+            <a href="../Date/index.html" title="Represents integer number." data-nsd-label-uuid="5a311d3c-91e5-4803-8300-00d1d97af234" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Date</a>
+            <a href="../DateProperty/index.html" title="A named/keyed integer." data-nsd-label-uuid="24fccc74-faa6-4413-ae04-77951931c1ef" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">DateProperty</a>
+            <a href="../Documented/index.html" title="Mix-in interface for classess with documentation." data-nsd-label-uuid="a4954945-835e-4299-93d1-b91e5c6dae17" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EInterface.gif" class="nsd-app-label-icon"><i>Documented</i></a>
+            <a href="../Double/index.html" title="Represents integer number." data-nsd-label-uuid="8da115c4-66af-456e-b6db-d7b031b6b1a4" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Double</a>
+            <a href="../DoubleProperty/index.html" title="A named/keyed integer." data-nsd-label-uuid="9eb23dd0-5e2e-42c1-ad79-ddb808c6baaf" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">DoubleProperty</a>
+            <a href="../Duration/index.html" title="[Duration](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html) is an amount of time in the [ISO-8601 Duration format](https://en.wikipedia.org/wiki/ISO_8601#Duration). Supports days and smaller units. Weeks, months and years are not supported. Example: ``P28DT10H``." data-nsd-label-uuid="e8245542-7ce6-4a37-9048-ec9992900d40" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EDataType.gif" class="nsd-app-label-icon">Duration</a>
+            <a href="../EObjectProperty/index.html" title="A named/keyed object." data-nsd-label-uuid="86da7484-310d-4af4-9cd3-ebdf366ef9d1" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">EObjectProperty</a>
+            <a href="../GitMarker/index.html" title="Marker with Git information such as a map of remotes." data-nsd-label-uuid="f647ff2d-c618-4080-a1f6-b609cae52af8" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">GitMarker</a>
+            <a href="../IMarked/index.html" data-nsd-label-uuid="0f5dac09-8d38-4b86-9699-ed0008147240" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EInterface.gif" class="nsd-app-label-icon"><i>IMarked</i></a>
+            <a href="index.html" data-nsd-label-uuid="2153e790-33eb-43b8-9107-38e6b639c022" class="list-group-item list-group-action active">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EInterface.gif" class="nsd-app-label-icon"><i>IMarker</i></a>
+            <a href="../Instant/index.html" title="[Instant](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html) is a single instantaneous point on the time-line. 
+If instant specification contains ``Z``, then it is parsed using [Instant.parse()](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html#parse-java.lang.CharSequence-) method.
+Otherwise the specification is used to construct ``java.util.Date`` which is then converted to instant.
+
+Examples:
+
+* ``2021-12-03T10:15:30.00Z`` - loaded using ``Instant.parse()``
+* ``10/1/2021`` - loaded using ``new Date()`` and then converted to instant.
+
+" data-nsd-label-uuid="7d1353a8-11a9-455f-8d5a-645856179065" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EDataType.gif" class="nsd-app-label-icon">Instant</a>
+            <a href="../Integer/index.html" title="Represents integer number." data-nsd-label-uuid="8c8d9528-8277-413f-a7ec-d4d761d3307c" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Integer</a>
+            <a href="../IntegerProperty/index.html" title="A named/keyed integer." data-nsd-label-uuid="e9f25128-30a4-4dbc-b2f5-dfb2ceb4248c" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">IntegerProperty</a>
+            <a href="../List/index.html" title="A list of objects." data-nsd-label-uuid="a1d52608-61c0-421a-92ca-b2d9c3820fd4" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">List</a>
+            <a href="../ListProperty/index.html" title="A named/keyed list." data-nsd-label-uuid="60120893-6264-4295-b125-d0a5e0f4a489" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">ListProperty</a>
+            <a href="../Long/index.html" title="Represents integer number." data-nsd-label-uuid="e5caf9ea-4206-48f1-8c09-579ae325b283" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Long</a>
+            <a href="../LongProperty/index.html" title="A named/keyed integer." data-nsd-label-uuid="746fd9b9-9019-4e69-bc24-1425b0454d97" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">LongProperty</a>
+            <a href="../Map/index.html" title="A set of key-value pairs." data-nsd-label-uuid="98327932-0299-49c1-afc2-1be429fb5434" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Map</a>
+            <a href="../MapProperty/index.html" title="A named/keyed map." data-nsd-label-uuid="da800fe0-6ebd-4233-be97-c772959210e3" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">MapProperty</a>
+            <a href="../Marked/index.html" data-nsd-label-uuid="371a75a6-4b67-4b98-b3df-5535dce7d56c" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EInterface.gif" class="nsd-app-label-icon"><i>Marked</i></a>
+            <a href="../Marker/index.html" title="Provides information about location for a model element definition - URI, line and column numbers." data-nsd-label-uuid="95f6e87a-543b-4c25-81a8-ff94594830fd" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Marker</a>
+            <a href="../ModelElement/index.html" title="Base class for many Nasdanika model classes." data-nsd-label-uuid="4a4d2ebe-ac06-43b1-b95f-d87595a6d460" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"><i>ModelElement</i></a>
+            <a href="../NamedElement/index.html" title="A model element with name." data-nsd-label-uuid="30610003-01c5-4513-8968-1022692a202e" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">NamedElement</a>
+            <a href="../Period/index.html" data-nsd-label-uuid="5dc02d3c-ce9d-4a34-9b1a-0ab60dc8d0b8" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Period</a>
+            <a href="../Property/index.html" title="Base class for keyed values." data-nsd-label-uuid="51d08f0c-43d7-4031-9a9b-99811b69b992" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EInterface.gif" class="nsd-app-label-icon"><i>Property</i></a>
+            <a href="../Reference/index.html" title="Object reference. May be used in containment collections to point to an object contained elsewhere." data-nsd-label-uuid="82d701e0-511d-46ed-9ea1-56af1aea8435" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Reference</a>
+            <a href="../RepresentationEntry/index.html" title="Mapping of representation key to a representation resource uri. Null values are supported to suppress inherited entries." data-nsd-label-uuid="22e09da5-50be-455b-8172-e70f3691d5ab" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">RepresentationEntry</a>
+            <a href="../String/index.html" title="Text/string." data-nsd-label-uuid="6fd3f15f-c55c-418f-8b7f-ce328dd46464" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">String</a>
+            <a href="../StringEntry/index.html" title="EMap entry with String value" data-nsd-label-uuid="4f9362b0-75d5-4094-affe-974f2f7396b5" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">StringEntry</a>
+            <a href="../StringProperty/index.html" title="A named/keyed string." data-nsd-label-uuid="c4b0c62d-7a2e-46c5-9169-eb2fa994f92a" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">StringProperty</a>
+            <a href="../Temporal/index.html" data-nsd-label-uuid="28663afa-3389-4925-9daf-ee4abeb807bc" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Temporal</a>
+            <a href="../ValueObject/index.html" data-nsd-label-uuid="fcef690f-50d8-4565-b238-c8959ba1a110" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EInterface.gif" class="nsd-app-label-icon"><i>ValueObject</i></a>
+            <a href="../ValueObjectProperty/index.html" data-nsd-label-uuid="67796ca9-747c-4643-bb0f-b31cbf47e264" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">ValueObjectProperty</a>
+          </div>
+        </div>
+        <div data-nsd-label-uuid="0574370a-853d-499d-948a-2f63b3d68722" data-nsd-action-uris="uuid:0574370a-853d-499d-948a-2f63b3d68722" class="col nsd-app-content-panel">
+          <div class="container-fluid">
+            <div class="row nsd-app-content-panel-breadcrumb-row">
+              <div class="col">
+                <nav aria-label="breadcrumb" class="nsd-app-content-panel-breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <a href="index.html" data-nsd-label-uuid="2153e790-33eb-43b8-9107-38e6b639c022">
+                        <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EInterface.gif" class="nsd-app-label-icon"><i>IMarker</i></a>
+                    </li>
+                    <li class="breadcrumb-item"><span data-nsd-label-uuid="f804f4de-832d-4362-97d9-663b4eb92d00"><img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png" class="nsd-app-label-icon">Graphs</span>
+                    </li>
+                    <li class="breadcrumb-item active"><span data-nsd-label-uuid="0574370a-853d-499d-948a-2f63b3d68722">Force Graph</span>
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-title-and-items-row">
+              <div class="col-auto">
+                <h1><span data-nsd-label-uuid="0574370a-853d-499d-948a-2f63b3d68722" class="nsd-app-content-panel-title">Force Graph<a data-toggle="modal" data-target="#nsd_4pd" href="#" title="A live force-layout graph of this classifier and related classifiers showing relationships between them" style="vertical-align:super;font-size:x-small;margin-left:0.2em"><span class="far fa-question-circle nsd-app-label-icon"></span></a></span>
+                </h1>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-content-row">
+              <div class="col">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col"><div id="graph-container-6" class="row" style="height:80vh;width:100%">
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		var dom = document.getElementById("graph-container-6");
+		var myChart = echarts.init(dom, null, {
+			render: "canvas",
+			useDirtyRect: false
+		});
+		var option = {"legend":{},"series":[{"type":"graph","emphasis":{"focus":"adjacency"},"data":[{"symbol":"image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EInterface.gif","name":"IMarker","value":{"externalLink":""},"x":904.6526387695457,"y":196.79800553060875,"category":0}],"symbolSize":16,"roam":true,"layout":"force","categories":[{"name":"ncore"}],"draggable":true,"label":{"show":true,"position":"right"},"lineStyle":{"color":"source","curveness":0},"force":{"repulsion":200,"gravity":0.1,"edgeLength":200}}]};
+		option.tooltip = {};
+		option.series[0].tooltip = {
+			formatter: function(arg) {
+				return arg.value ? arg.value.description : null;
+			}
+		};
+		myChart.setOption(option);
+		myChart.on("dblclick", function(params) {
+			if (params.value) {
+				if (params.value.link) {
+					window.open(params.value.link, "_self");
+				} else if (params.value.externalLink) {
+					window.open(params.value.externalLink);
+				}
+			}
+		});
+		window.addEventListener("resize", myChart.resize);
+	});
+
+</script>
+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
