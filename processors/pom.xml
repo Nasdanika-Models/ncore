@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.nasdanika.models.ncore</groupId>
-		<version>2023.9.0</version>
+		<version>2023.12.0</version>
 		<artifactId>parent</artifactId>
 		<relativePath>..</relativePath>
 	</parent>
@@ -20,7 +20,12 @@
 			<groupId>org.nasdanika.models.ecore</groupId>
 			<artifactId>graph</artifactId>
 			<version>${models.ecore.version}</version>
-		</dependency>		
+		</dependency>	
+		<dependency>
+		    <groupId>org.nasdanika.html</groupId>
+			<artifactId>app-model-graph</artifactId>
+		    <version>${html.version}</version>
+		</dependency>	
 	</dependencies>
 </project>
 

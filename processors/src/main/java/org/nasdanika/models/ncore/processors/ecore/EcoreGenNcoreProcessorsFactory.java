@@ -1,4 +1,4 @@
-package org.nasdanika.models.ncore.processors;
+package org.nasdanika.models.ncore.processors.ecore;
 
 import org.nasdanika.common.Context;
 import org.nasdanika.models.ecore.graph.processors.EPackageNodeProcessorFactory;
