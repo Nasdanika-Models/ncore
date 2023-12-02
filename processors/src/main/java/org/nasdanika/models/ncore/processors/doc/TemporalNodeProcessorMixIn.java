@@ -2,7 +2,9 @@
  */
 package org.nasdanika.models.ncore.processors.doc;
 
-public interface TemporalNodeProcessorMixIn extends ModelElementNodeProcessorMixIn {
+import org.nasdanika.ncore.Temporal;
+
+public interface TemporalNodeProcessorMixIn<T extends Temporal> extends ModelElementNodeProcessorMixIn<T> {
 
 //	Instant getInstant();
 //	Temporal getBase();

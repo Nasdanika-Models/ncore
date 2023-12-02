@@ -2,7 +2,9 @@
  */
 package org.nasdanika.models.ncore.processors.doc;
 
-public interface ModelElementNodeProcessorMixIn extends MarkedNodeProcessorMixIn {
+import org.nasdanika.ncore.ModelElement;
+
+public interface ModelElementNodeProcessorMixIn<T extends ModelElement> extends MarkedNodeProcessorMixIn<T> {
 
 //	EList<String> getUris();
 //	String getDescription();

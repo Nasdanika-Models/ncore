@@ -2,7 +2,9 @@
  */
 package org.nasdanika.models.ncore.processors.doc;
 
-public interface PeriodNodeProcessorMixIn extends ModelElementNodeProcessorMixIn {
+import org.nasdanika.ncore.Period;
+
+public interface PeriodNodeProcessorMixIn<T extends Period> extends ModelElementNodeProcessorMixIn<T> {
 
 //	Temporal getStart();
 //	Temporal getEnd();
