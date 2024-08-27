@@ -23,7 +23,7 @@ import org.nasdanika.common.NullProgressMonitor;
 import org.nasdanika.common.ProgressMonitor;
 import org.nasdanika.html.model.app.Action;
 import org.nasdanika.html.model.app.gen.AppSiteGenerator;
-import org.nasdanika.models.ecore.graph.processors.EcoreActionGenerator;
+import org.nasdanika.models.ecore.graph.processors.EcoreHtmlAppGenerator;
 import org.nasdanika.models.ecore.graph.processors.EcoreNodeProcessorFactory;
 import org.nasdanika.models.ncore.processors.ecore.EcoreGenNcoreProcessorsFactory;
 import org.nasdanika.ncore.NcorePackage;
@@ -64,12 +64,12 @@ public class TestNcoreModelDocGen {
 		actionModelsDir.mkdirs();		
 		File output = new File(actionModelsDir, "ncore.xmi");
 		
-		EcoreActionGenerator eCoreActionGenerator = new EcoreActionGenerator(
+		EcoreHtmlAppGenerator eCoreHtmlAppGenerator = new EcoreHtmlAppGenerator(
 				NcorePackage.eINSTANCE, 
 				packageURIMap, 
 				ecoreNodeProcessorFactory);
 		
-		eCoreActionGenerator.generateActionModel(diagnosticConsumer, output, progressMonitor);
+		eCoreHtmlAppGenerator.generateHtmlAppModel(diagnosticConsumer, output, progressMonitor);
 				
 		String rootActionResource = "actions.yml";
 		URI rootActionURI = URI.createFileURI(new File(rootActionResource).getAbsolutePath());//.appendFragment("/");
@@ -78,7 +78,7 @@ public class TestNcoreModelDocGen {
 		URI pageTemplateURI = URI.createFileURI(new File(pageTemplateResource).getAbsolutePath());//.appendFragment("/");
 		
 		String siteMapDomain = "https://ncore.models.nasdanika.org";		
-		AppSiteGenerator actionSiteGenerator = new AppSiteGenerator() {
+		AppSiteGenerator siteGenerator = new AppSiteGenerator() {
 			
 			protected boolean isDeleteOutputPath(String path) {
 				return !"CNAME".equals(path);				
@@ -86,7 +86,7 @@ public class TestNcoreModelDocGen {
 			
 		};		
 		
-		Map<String, Collection<String>> errors = actionSiteGenerator.generate(rootActionURI, pageTemplateURI, siteMapDomain, new File("../docs"), new File("target/doc-site-work-dir"), true);
+		Map<String, Collection<String>> errors = siteGenerator.generate(rootActionURI, pageTemplateURI, siteMapDomain, new File("../docs"), new File("target/doc-site-work-dir"), true);
 				
 		int errorCount = 0;
 		for (Entry<String, Collection<String>> ee: errors.entrySet()) {
