@@ -2,7 +2,7 @@ module org.nasdanika.models.ncore.processors {
 		
 	requires transitive org.nasdanika.ncore;
 	requires transitive org.nasdanika.models.ecore.graph;
-	requires transitive org.nasdanika.html.model.app.graph;
+	requires transitive org.nasdanika.models.app.graph;
 	
 	exports org.nasdanika.models.ncore.processors.doc;
 	opens org.nasdanika.models.ncore.processors.doc; // For loading resources
