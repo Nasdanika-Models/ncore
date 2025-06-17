@@ -1,989 +1,989 @@
 {
   "references/eClassifiers/Tree/inheritance.html": {
     "path": "Tree/Inheritance",
-    "link-uuid": "b093a09c-a559-43c8-9d76-aa560811363d",
+    "link-uuid": "926a87eb-87e1-4d4c-9d64-208fc576e26e",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300829
+    "timestamp": 1749931076036
   },
   "references/eClassifiers/Temporal/references/eOperations/coincides-2/references/eParameters/when/index.html": {
     "path": "Temporal/Operations/coincides/Parameters/when",
-    "link-uuid": "47dc87bf-688b-437b-a282-e6823ec61eec",
+    "link-uuid": "5b163c51-6fe6-4838-a16f-adf4c200c5b7",
     "title": "when",
     "content": "Type Temporal Multiplicity 0..1",
-    "timestamp": 1747875300754
+    "timestamp": 1749931075930
   },
   "references/eClassifiers/LongProperty/inheritance.html": {
     "path": "LongProperty/Inheritance",
-    "link-uuid": "7df84cfc-a283-4e72-b12f-8edeaf45edcf",
+    "link-uuid": "ebb81447-3763-4484-9843-29fe32de4c01",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300424
+    "timestamp": 1749931075493
   },
   "references/eClassifiers/StackTraceElement/references/eStructuralFeatures/fileName/index.html": {
     "path": "StackTraceElement/Attributes/fileName",
-    "link-uuid": "57dda5de-4bc9-4aee-970e-b4f2a2ad4699",
+    "link-uuid": "81c13a8a-c22e-402e-9abc-68565543059d",
     "title": "fileName",
     "content": "Type EString Multiplicity 0..1 File name.",
-    "timestamp": 1747875300644
+    "timestamp": 1749931075746
   },
   "references/eClassifiers/Temporal/references/eOperations/after-0/references/eParameters/when/index.html": {
     "path": "Temporal/Operations/after/Parameters/when",
-    "link-uuid": "2724012a-c66d-4864-b5b2-db6b09a6594d",
+    "link-uuid": "bed9db92-76ee-47ae-8540-946c25dc9d0e",
     "title": "when",
     "content": "Type Temporal Multiplicity 0..1",
-    "timestamp": 1747875300741
+    "timestamp": 1749931075909
   },
   "references/eClassifiers/Period/references/eStructuralFeatures/start/index.html": {
     "path": "Period/References/start",
-    "link-uuid": "a216b8df-d23a-481f-b265-38c032ff8dc2",
+    "link-uuid": "8ba745f4-bbed-47fc-af62-8f8d45a615bc",
     "title": "start",
     "content": "Type Temporal Multiplicity 0..1 Period start.",
-    "timestamp": 1747875300574
+    "timestamp": 1749931075656
   },
   "references/eClassifiers/Composite/index.html": {
-    "link-uuid": "8dfa7479-2d79-4dea-9288-9546743d1962",
+    "link-uuid": "b054ecae-5bf8-4b21-aa0a-d01d02b9bfed",
     "title": "Composite",
     "content": "A simple class for building hierarchies of documented entities.",
-    "timestamp": 1747875300098
+    "timestamp": 1749931075157
   },
   "references/eClassifiers/Temporal/references/eOperations/minus-4/index.html": {
     "path": "Temporal/Operations/minus",
-    "link-uuid": "b4244379-48d2-4f3b-80ee-66a7a25e2dac",
+    "link-uuid": "b6b42d17-cc53-475f-a268-662ecb6acb67",
     "title": "minus",
     "content": "Type Duration Multiplicity 0..1 Returns duration difference between this temporal and the argument temporal - how much this temporal is after the argument on the time-line, if difference can be computed, i.e. both this temporal and the argument temporal are instant or trace to the same base temporal. Returns null otherwise.",
-    "timestamp": 1747875300759
+    "timestamp": 1749931075936
   },
   "references/eClassifiers/DoubleProperty/index.html": {
-    "link-uuid": "bb398a06-9018-4c93-bc52-711b1c7d5baf",
+    "link-uuid": "58b0f3fb-7c14-403e-b460-8402c3e5745e",
     "title": "DoubleProperty",
     "content": "A named/keyed integer.",
-    "timestamp": 1747875300241
+    "timestamp": 1749931075298
   },
   "references/eClassifiers/Temporal/index.html": {
-    "link-uuid": "2b093f2e-26b5-426f-a765-a74f812aa153",
+    "link-uuid": "6f569ab2-1aa5-490a-b382-a4355550ba81",
     "title": "Temporal",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875300730
+    "timestamp": 1749931075887
   },
   "references/eClassifiers/Temporal/references/eStructuralFeatures/derivatives/index.html": {
     "path": "Temporal/References/derivatives",
-    "link-uuid": "600cb0c3-d000-418a-9295-8dc41b2323b9",
+    "link-uuid": "cd74201b-2857-4867-a309-0c17632903c6",
     "title": "derivatives",
     "content": "Type Temporal Multiplicity 0..* Temporals which are based on this temporal.",
-    "timestamp": 1747875300781
+    "timestamp": 1749931075964
   },
   "references/eClassifiers/List/references/eStructuralFeatures/value/index.html": {
     "path": "List/References/value",
-    "link-uuid": "4242d5f9-f1a5-4162-b3d8-b8aea69c934f",
+    "link-uuid": "377941a2-2064-4f54-b69a-9fce63643bca",
     "title": "value",
     "content": "Type EObject Multiplicity 0..* List elements.",
-    "timestamp": 1747875300377
+    "timestamp": 1749931075446
   },
   "references/eClassifiers/NamedElement/index.html": {
-    "link-uuid": "34fe37fd-d937-4e2f-b94a-654dd46504f2",
+    "link-uuid": "37ba5edd-1b33-4bfd-9314-864f218fbbc6",
     "title": "NamedElement",
     "content": "A model element with name.",
-    "timestamp": 1747875300546
+    "timestamp": 1749931075626
   },
   "references/eClassifiers/Temporal/references/eOperations/copy-7/index.html": {
     "path": "Temporal/Operations/copy",
-    "link-uuid": "d664bcb7-a3ef-48fc-8264-24eb01b997fe",
+    "link-uuid": "1c3cddb0-aed3-41a4-986a-d7c4210bfde5",
     "title": "copy",
     "content": "Type Temporal Multiplicity 0..1 Returns a deep copy of self with bounds copied. Other containment references are not set.",
-    "timestamp": 1747875300756
+    "timestamp": 1749931075933
   },
   "references/eClassifiers/GitMarker/index.html": {
-    "link-uuid": "e00ab739-03c2-40f8-9fbf-f8d45996f3f0",
+    "link-uuid": "0b285e7c-363a-4cd7-bec3-ba252a349187",
     "title": "GitMarker",
     "content": "Marker with Git information such as a map of remotes.",
-    "timestamp": 1747875300297
+    "timestamp": 1749931075357
   },
   "references/eClassifiers/Duration/index.html": {
-    "link-uuid": "27b0d90d-b298-4704-8f22-f3f0a5ad1b12",
+    "link-uuid": "bfe43105-f263-4a6f-97a3-81d7492d2c57",
     "title": "Duration",
     "content": "Duration is an amount of time in the ISO-8601 Duration format. Supports days and smaller units. Weeks, months and years are not supported. Example: P28DT10H.",
-    "timestamp": 1747875300249
+    "timestamp": 1749931075306
   },
   "references/eClassifiers/DateProperty/inheritance.html": {
     "path": "DateProperty/Inheritance",
-    "link-uuid": "0ea6693b-922d-4949-9280-958b832935d5",
+    "link-uuid": "a2eb0f63-86eb-4e73-9142-7da7d441fb48",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300136
+    "timestamp": 1749931075197
   },
   "references/eClassifiers/Composite/inheritance.html": {
     "path": "Composite/Inheritance",
-    "link-uuid": "83bf115e-bb41-406c-8900-cdd41a139807",
+    "link-uuid": "a51a3f82-3a6d-4416-8ba1-881be8fbc8ae",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300100
+    "timestamp": 1749931075159
   },
   "references/eClassifiers/GitMarker/references/eStructuralFeatures/path/index.html": {
     "path": "GitMarker/Attributes/path",
-    "link-uuid": "4465cc16-6bc1-4f6c-a0e7-507c7c98c520",
+    "link-uuid": "192e5932-cda7-4805-a47e-2aa9504b4a24",
     "title": "path",
     "content": "Type EString Multiplicity 0..1 Path in the repository",
-    "timestamp": 1747875300307
+    "timestamp": 1749931075367
   },
   "references/eClassifiers/Temporal/references/eOperations/minus-5/references/eParameters/offset/index.html": {
     "path": "Temporal/Operations/minus/Parameters/offset",
-    "link-uuid": "efc9864d-5db5-4c2e-878b-99e7370dba3a",
+    "link-uuid": "3575a1fc-1360-4ab2-b433-1f736e18c4eb",
     "title": "offset",
     "content": "Type Duration Multiplicity 0..1",
-    "timestamp": 1747875300768
+    "timestamp": 1749931075951
   },
   "references/eClassifiers/Marked/index.html": {
-    "link-uuid": "e74bf9e8-1d3d-4168-a52d-68c4712826fb",
+    "link-uuid": "ad50f4b4-c03b-45b5-b9b3-1e9ff2bedac8",
     "title": "Marked",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875300468
+    "timestamp": 1749931075541
   },
   "references/eClassifiers/Period/inheritance.html": {
     "path": "Period/Inheritance",
-    "link-uuid": "3b99a089-db8d-42b6-aa6d-ab3ddc4f12de",
+    "link-uuid": "22a9296c-466c-4425-9639-80d54582dd4c",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300568
+    "timestamp": 1749931075649
   },
   "references/eClassifiers/ValueObject/references/eStructuralFeatures/value/index.html": {
     "path": "ValueObject/Attributes/value",
-    "link-uuid": "3bdcc082-33f5-4381-ae69-cee165acc31d",
+    "link-uuid": "17438b18-b3e3-4c84-ace1-78497cfcace1",
     "title": "value",
     "content": "Type T Multiplicity 0..1 String value.",
-    "timestamp": 1747875300886
+    "timestamp": 1749931076093
   },
   "references/eClassifiers/BooleanProperty/index.html": {
-    "link-uuid": "8674e38b-a1b2-4863-a27b-67dde6241927",
+    "link-uuid": "d0a3014c-4bb4-4105-888b-e46237fcb62a",
     "title": "BooleanProperty",
     "content": "A named/keyed boolean.",
-    "timestamp": 1747875300079
+    "timestamp": 1749931075139
   },
   "references/eClassifiers/EObjectProperty/inheritance.html": {
     "path": "EObjectProperty/Inheritance",
-    "link-uuid": "0ab395e1-843d-4b5a-84be-b1dff7bd9c82",
+    "link-uuid": "1d689fdf-37a8-478e-bb7d-dccdd9986645",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300264
+    "timestamp": 1749931075319
   },
   "references/eClassifiers/Map/index.html": {
-    "link-uuid": "a6285b32-4e90-4ed2-a451-fd0e8dda624d",
+    "link-uuid": "e8001ca1-4a0e-45ca-88a0-8b46d914c8be",
     "title": "Map",
     "content": "A set of key-value pairs.",
-    "timestamp": 1747875300435
+    "timestamp": 1749931075506
   },
   "references/eClassifiers/Long/index.html": {
-    "link-uuid": "3a1fc81c-dadb-4ab4-9ec5-08ea5d29ee86",
+    "link-uuid": "4e56aa15-fc3a-42db-8f72-67dad099eeeb",
     "title": "Long",
     "content": "Represents integer number.",
-    "timestamp": 1747875300406
+    "timestamp": 1749931075476
   },
   "references/eClassifiers/ValueObject/inheritance.html": {
     "path": "ValueObject/Inheritance",
-    "link-uuid": "d5aebc78-3af2-42b9-bfb4-82914f85dc21",
+    "link-uuid": "564b6ee6-3ade-4728-b243-c2f458b0876a",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300884
+    "timestamp": 1749931076091
   },
   "references/eClassifiers/GitMarker/references/eStructuralFeatures/remotes/index.html": {
     "path": "GitMarker/References/remotes",
-    "link-uuid": "bdbb6e81-91a7-41e1-bac3-35e11f896d8f",
+    "link-uuid": "eb31ae87-f5e1-4f0d-88fb-099b96ff2997",
     "title": "remotes",
     "content": "Type StringEntry Multiplicity 0..* A map of remote names to url&rsquo;s.",
-    "timestamp": 1747875300308
+    "timestamp": 1749931075369
   },
   "references/eClassifiers/Marker/inheritance.html": {
     "path": "Marker/Inheritance",
-    "link-uuid": "26660acd-53ea-41e6-8312-e751f31ee423",
+    "link-uuid": "5bf33ab2-ada3-4e00-a797-176717c4177e",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300486
+    "timestamp": 1749931075562
   },
   "references/eClassifiers/Temporal/references/eOperations/normalize-3/index.html": {
     "path": "Temporal/Operations/normalize",
-    "link-uuid": "71899269-c7cd-4049-8b17-a404742d11ab",
+    "link-uuid": "b98dccf9-0025-41fa-8328-7cad54268856",
     "title": "normalize",
     "content": "Type Temporal Multiplicity 0..1 Returns a normalized instance of this temporal not contained in the model. Normalization walks through the temporal chain from a temporal to its base to the root temporal. If that root temporal is instant/absolute then the normalized instance would be instant/absolute. Otherwise the normalized instance would contain the root temporal as its base and the offset would be the sum of all offsets.",
-    "timestamp": 1747875300770
+    "timestamp": 1749931075953
   },
   "references/eClassifiers/BooleanProperty/inheritance.html": {
     "path": "BooleanProperty/Inheritance",
-    "link-uuid": "e60ac55d-2ffd-4101-a297-c13168c05ac7",
+    "link-uuid": "cfdad07d-d647-413f-a100-83d8aac27dbd",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300081
+    "timestamp": 1749931075141
   },
   "references/eClassifiers/ModelElement/references/eStructuralFeatures/uuid/index.html": {
     "path": "ModelElement/Attributes/uuid",
-    "link-uuid": "af998e55-c069-482e-8d00-4f9da34aa019",
+    "link-uuid": "1c07e2b7-5c62-4b13-9909-0e9d63f7bb28",
     "title": "uuid",
     "content": "Type EString Multiplicity 0..1 Optional unique identifier for this model element. For root objects UUID is used to compute URI, if the URI is not set.",
-    "timestamp": 1747875300530
+    "timestamp": 1749931075612
   },
   "references/eClassifiers/Reference/inheritance.html": {
     "path": "Reference/Inheritance",
-    "link-uuid": "7217f924-edaa-4b52-928d-8c13c78079c2",
+    "link-uuid": "0d76e7f3-8399-4303-bbc9-1d98ed59bc65",
     "title": "Inheritance",
     "content": "Subtypes ",
-    "timestamp": 1747875300606
+    "timestamp": 1749931075693
   },
   "references/eClassifiers/IntegerProperty/inheritance.html": {
     "path": "IntegerProperty/Inheritance",
-    "link-uuid": "2e2b0f22-9d91-4611-ba36-44c18392e039",
+    "link-uuid": "ba7d93ec-2cc6-49a8-bfbb-8f1d24f7a236",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300358
+    "timestamp": 1749931075426
   },
   "references/eClassifiers/ModelElement/index.html": {
-    "link-uuid": "dd6b7585-fa3d-4706-a40b-c9df43928ace",
+    "link-uuid": "cdbcb24d-3004-48b7-a24c-2225b6cd7735",
     "title": "ModelElement",
     "content": "Base class for many Nasdanika model classes.",
-    "timestamp": 1747875300512
+    "timestamp": 1749931075591
   },
   "references/eClassifiers/Temporal/references/eOperations/plus-6/references/eParameters/offset/index.html": {
     "path": "Temporal/Operations/plus/Parameters/offset",
-    "link-uuid": "3d965e59-8011-4d6c-abad-799e92bf831a",
+    "link-uuid": "27b2db4b-0803-43d7-910d-7c9798f69c28",
     "title": "offset",
     "content": "Type Duration Multiplicity 0..1",
-    "timestamp": 1747875300777
+    "timestamp": 1749931075960
   },
   "references/eClassifiers/Integer/index.html": {
-    "link-uuid": "3d22c0a2-e09c-4e82-a0f7-25793dd18f6b",
+    "link-uuid": "d0221354-62b6-43ae-bbce-2bda5f9c895f",
     "title": "Integer",
     "content": "Represents integer number.",
-    "timestamp": 1747875300342
+    "timestamp": 1749931075406
   },
   "references/eClassifiers/ModelElement/references/eStructuralFeatures/description/index.html": {
     "path": "ModelElement/Attributes/description",
-    "link-uuid": "873770d4-41b6-4195-ad4f-cb4f8719898c",
+    "link-uuid": "ff4927ae-9a5e-400f-948f-48ef8ad14136",
     "title": "description",
     "content": "Type EString Multiplicity 0..1 Description in HTML.",
-    "timestamp": 1747875300518
+    "timestamp": 1749931075597
   },
   "references/eClassifiers/StackTraceElement/references/eStructuralFeatures/native/index.html": {
     "path": "StackTraceElement/Attributes/native",
-    "link-uuid": "7798e214-12e8-43a1-8552-6af5c9eea740",
+    "link-uuid": "2a3635e4-504c-4de5-9259-81456e5adf86",
     "title": "native",
     "content": "Type EBoolean Multiplicity 0..1 &lsquo;true&rsquo; for native methods.",
-    "timestamp": 1747875300649
+    "timestamp": 1749931075756
   },
   "references/eClassifiers/File/references/eStructuralFeatures/length/index.html": {
     "path": "File/Attributes/length",
-    "link-uuid": "0a8686a2-d5aa-49c7-b8ab-2999eab2b103",
+    "link-uuid": "19ce4e03-6ba9-45ee-ae8d-317607967fdb",
     "title": "length",
     "content": "Type ELong Multiplicity 0..1",
-    "timestamp": 1747875300286
+    "timestamp": 1749931075345
   },
   "references/eClassifiers/Temporal/inheritance.html": {
     "path": "Temporal/Inheritance",
-    "link-uuid": "dfb842c7-0f86-43ca-ae17-25ae33b44154",
+    "link-uuid": "bafa1672-b83e-47ff-90ae-cc81f665cd81",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300732
+    "timestamp": 1749931075890
   },
   "references/eClassifiers/Temporal/references/eOperations/minus-5/index.html": {
     "path": "Temporal/Operations/minus",
-    "link-uuid": "a4260425-bdb7-4058-8079-8c60418485a1",
+    "link-uuid": "e82bf3dd-0cfb-4f47-9476-c6d718c61861",
     "title": "minus",
     "content": "Type Temporal Multiplicity 0..1 Returns a temporal based on this one offset by negation of the argument duration. Null duration is treated as zero and set as-is (not negated).",
-    "timestamp": 1747875300764
+    "timestamp": 1749931075946
   },
   "references/eClassifiers/GitMarker/inheritance.html": {
     "path": "GitMarker/Inheritance",
-    "link-uuid": "5c6b2fc4-f2b8-4ca0-bdfa-dc39af1c45fe",
+    "link-uuid": "c5bd0618-ff9e-4276-8785-40427227e28b",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300298
+    "timestamp": 1749931075359
   },
   "references/eClassifiers/RepresentationEntry/references/eStructuralFeatures/value/index.html": {
     "path": "RepresentationEntry/Attributes/value",
-    "link-uuid": "e90117c7-145b-4aac-9bd4-758109e9621e",
+    "link-uuid": "872cdacb-a18d-4ef0-ae83-ba96c880da9a",
     "title": "value",
     "content": "Type EString Multiplicity 0..1 Representation resource URI. E.g. and URI of a Drawio diagram.",
-    "timestamp": 1747875300628
+    "timestamp": 1749931075715
   },
   "references/eClassifiers/Marked/references/eStructuralFeatures/markers/index.html": {
     "path": "Marked/References/markers",
-    "link-uuid": "d3cdd191-c719-467e-b76e-fd1845284091",
+    "link-uuid": "86a705b2-409f-44be-a0cc-21409333a782",
     "title": "markers",
     "content": "Type Marker Multiplicity 0..* Markers pointing to where this model element was loaded from - location, line and column numbers. Multiple markers are supported for situations when a single model element is loaded from multiple locations, e.g. a row in an Excel document or a database and then pom.xml and readme.md is a source repository. Another possiblity is an element being created from a prototype and then loaded - in this case the object will inherit markers from its prototype and will have a marker point to the location where it was loaded from. Markers are listed in the reverse order, i.e. the prototype marker would be after the load marker in the list.",
-    "timestamp": 1747875300472
+    "timestamp": 1749931075547
   },
   "references/eClassifiers/NamedElement/inheritance.html": {
     "path": "NamedElement/Inheritance",
-    "link-uuid": "11d9bb98-b5b7-416b-8b41-e0ab6ed290b3",
+    "link-uuid": "13b0cac1-817a-4e5b-88d4-4d5bcc9ed853",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300547
+    "timestamp": 1749931075628
   },
   "references/eClassifiers/DoubleProperty/inheritance.html": {
     "path": "DoubleProperty/Inheritance",
-    "link-uuid": "e76278a9-2a91-4c61-9456-7082465bf6f4",
+    "link-uuid": "c4594d30-ec1f-4405-9985-3e23d7c43430",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300243
+    "timestamp": 1749931075300
   },
   "references/eClassifiers/Documented/references/eStructuralFeatures/contextHelp/index.html": {
     "path": "Documented/References/contextHelp",
-    "link-uuid": "1bb3822c-0033-4321-b12a-ececaa99364e",
+    "link-uuid": "ea12f57f-c000-4d17-a6c4-abf75e430ad1",
     "title": "contextHelp",
     "content": "Type EObject Multiplicity 0..* Context help. It may be different from documentation.",
-    "timestamp": 1747875300179
+    "timestamp": 1749931075232
   },
   "references/eClassifiers/Map/inheritance.html": {
     "path": "Map/Inheritance",
-    "link-uuid": "fd150b8e-6acb-4053-876c-6fe72af28fbd",
+    "link-uuid": "b886599b-a695-4031-8538-5ba7a25b67ae",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300437
+    "timestamp": 1749931075508
   },
   "references/eClassifiers/StringIdentity/index.html": {
-    "link-uuid": "6e7cb885-defd-4b10-ba50-1469d81f8044",
+    "link-uuid": "9bda439a-62d2-4c1a-b701-66aac36e5736",
     "title": "StringIdentity",
     "content": "Base for classes which are unquely identified by a string in their containment reference",
-    "timestamp": 1747875300700
+    "timestamp": 1749931075834
   },
   "references/eClassifiers/StringIdentity/inheritance.html": {
     "path": "StringIdentity/Inheritance",
-    "link-uuid": "a60ea946-f4fb-4633-ab6f-b3d9b9d7988b",
+    "link-uuid": "858a7eb4-1fcb-488c-9c8c-e80251b5aac0",
     "title": "Inheritance",
     "content": "Subtypes ",
-    "timestamp": 1747875300702
+    "timestamp": 1749931075836
   },
   "references/eClassifiers/Composite/references/eStructuralFeatures/children/index.html": {
     "path": "Composite/References/children",
-    "link-uuid": "25314901-8f42-493e-8aba-2630057a6a6d",
+    "link-uuid": "3759e7a2-2522-42ab-90f7-800a49200f07",
     "title": "children",
     "content": "Type Composite Multiplicity 0..* Composite&rsquo;s children.",
-    "timestamp": 1747875300104
+    "timestamp": 1749931075163
   },
   "references/eClassifiers/Temporal/references/eOperations/before-1/index.html": {
     "path": "Temporal/Operations/before",
-    "link-uuid": "9d5541ee-5ebb-4600-b260-2e37bedf6170",
+    "link-uuid": "4f6819f7-cb08-4bc2-8b78-bbda77e7310c",
     "title": "before",
     "content": "Type EBooleanObject Multiplicity 0..1 Tests if this temporal is before the specified temporal. Returns null if unknown, i.e. two unrelated points in time.",
-    "timestamp": 1747875300743
+    "timestamp": 1749931075913
   },
   "references/eClassifiers/Throwable/references/eStructuralFeatures/type/index.html": {
     "path": "Throwable/Attributes/type",
-    "link-uuid": "a0343b97-4935-4600-9b7d-61a3c20db1e3",
+    "link-uuid": "e7337e93-78e1-48bf-80d7-7ce2e613a56f",
     "title": "type",
     "content": "Type EString Multiplicity 0..1 Throwable class name.",
-    "timestamp": 1747875300815
+    "timestamp": 1749931076015
   },
   "references/eClassifiers/Reference/references/eStructuralFeatures/target/index.html": {
     "path": "Reference/References/target",
-    "link-uuid": "f1b312d1-6d78-48b9-8f76-ca801f2900ee",
+    "link-uuid": "b56e9c0d-8e91-4b94-84a8-2000346141ea",
     "title": "target",
     "content": "Type T Multiplicity 1 Reference target.",
-    "timestamp": 1747875300609
+    "timestamp": 1749931075696
   },
   "references/eClassifiers/Property/references/eStructuralFeatures/name/index.html": {
     "path": "Property/Attributes/name",
-    "link-uuid": "c15dc426-6285-42b0-bc2c-5a4ac082db35",
+    "link-uuid": "8d0f5b63-ac2c-4722-b454-f721273eb71b",
     "title": "name",
     "content": "Type EString Multiplicity 1 Property name/key.",
-    "timestamp": 1747875300592
+    "timestamp": 1749931075677
   },
   "references/eClassifiers/Directory/inheritance.html": {
     "path": "Directory/Inheritance",
-    "link-uuid": "012d3ef7-96dd-4c94-aa02-c07a111cb7c2",
+    "link-uuid": "21576ca6-0a18-4fe9-936e-647364c7fa58",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300160
+    "timestamp": 1749931075213
   },
   "references/eClassifiers/ValueObjectProperty/inheritance.html": {
     "path": "ValueObjectProperty/Inheritance",
-    "link-uuid": "70730e29-92b7-423a-93b5-821ee672774a",
+    "link-uuid": "337d3301-486c-47c1-b842-1474c25fbdb7",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300906
+    "timestamp": 1749931076110
   },
   "references/eClassifiers/IMarked/inheritance.html": {
     "path": "IMarked/Inheritance",
-    "link-uuid": "e8713bc1-d6c5-4d5b-b0df-7a415a60fcea",
+    "link-uuid": "fb0356b0-606d-40ef-b1e7-902dd2debf39",
     "title": "Inheritance",
     "content": "Subtypes ",
-    "timestamp": 1747875300320
+    "timestamp": 1749931075382
   },
   "references/eClassifiers/StringEntry/references/eStructuralFeatures/value/index.html": {
     "path": "StringEntry/Attributes/value",
-    "link-uuid": "e3c1474e-80c9-4657-95d4-a590bacc5200",
+    "link-uuid": "30b7bce6-bb02-45d1-b808-545c9b839461",
     "title": "value",
     "content": "Type EString Multiplicity 0..1 Entry value.",
-    "timestamp": 1747875300687
+    "timestamp": 1749931075812
   },
   "references/eClassifiers/RepresentationEntry/references/eStructuralFeatures/key/index.html": {
     "path": "RepresentationEntry/Attributes/key",
-    "link-uuid": "5a03ae7a-f012-420c-90ed-93709011ad5c",
+    "link-uuid": "f47ea2ef-1443-4533-8ff5-fd1b3c911b0d",
     "title": "key",
     "content": "Type EString Multiplicity 1 Representation key.",
-    "timestamp": 1747875300627
+    "timestamp": 1749931075714
   },
   "references/eClassifiers/StringProperty/inheritance.html": {
     "path": "StringProperty/Inheritance",
-    "link-uuid": "c8ef9ab4-5357-400d-97cc-dbbd3245b52b",
+    "link-uuid": "1cda9864-dcda-40f5-8f87-a20172745e83",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300715
+    "timestamp": 1749931075854
   },
   "references/eClassifiers/Double/index.html": {
-    "link-uuid": "1987d321-45c6-4feb-a896-dc84ee3181f2",
+    "link-uuid": "8db470e0-c96b-4d09-929b-b3eb38f87ea6",
     "title": "Double",
     "content": "Represents integer number.",
-    "timestamp": 1747875300225
+    "timestamp": 1749931075282
   },
   "references/eClassifiers/StringProperty/index.html": {
-    "link-uuid": "90ddb008-c3df-4192-a9dd-9fe9269858d7",
+    "link-uuid": "2f8d6c4f-d571-4ba1-b9e8-f917fff498d6",
     "title": "StringProperty",
     "content": "A named/keyed string.",
-    "timestamp": 1747875300713
+    "timestamp": 1749931075852
   },
   "references/eClassifiers/Temporal/references/eOperations/before-1/references/eParameters/when/index.html": {
     "path": "Temporal/Operations/before/Parameters/when",
-    "link-uuid": "86e00e00-ee9a-4276-b4a6-ea44d41a3a7c",
+    "link-uuid": "d59ebedb-0494-4421-aa3e-ede15cd254f2",
     "title": "when",
     "content": "Type Temporal Multiplicity 0..1",
-    "timestamp": 1747875300746
+    "timestamp": 1749931075919
   },
   "references/eClassifiers/Boolean/index.html": {
-    "link-uuid": "8c4407ed-2ca1-43e7-b636-82762206de7a",
+    "link-uuid": "d3a0ecdb-a415-4fd6-8dd8-2cc88cd38cce",
     "title": "Boolean",
     "content": "Represents boolean.",
-    "timestamp": 1747875300064
+    "timestamp": 1749931075120
   },
   "references/eClassifiers/StringIdentity/references/eStructuralFeatures/id/index.html": {
     "path": "StringIdentity/Attributes/id",
-    "link-uuid": "70edff50-de57-4f34-b9fd-858abcee9e5f",
+    "link-uuid": "1fda45e6-d3bc-4844-a360-08fc06eb1a31",
     "title": "id",
     "content": "Type EString Multiplicity 1 Element ID used as eKey in containment references",
-    "timestamp": 1747875300703
+    "timestamp": 1749931075839
   },
   "references/eClassifiers/StackTraceElement/references/eStructuralFeatures/lineNumber/index.html": {
     "path": "StackTraceElement/Attributes/lineNumber",
-    "link-uuid": "d8672d37-9dec-443d-a141-74abc2513ae1",
+    "link-uuid": "03983393-e728-49da-bb01-f1fed3b30f82",
     "title": "lineNumber",
     "content": "Type EInt Multiplicity 0..1 Line number.",
-    "timestamp": 1747875300645
+    "timestamp": 1749931075751
   },
   "references/eClassifiers/Adaptable/inheritance.html": {
     "path": "Adaptable/Inheritance",
-    "link-uuid": "e4110b90-b4be-445d-9de1-2abca870cb5f",
+    "link-uuid": "2990b388-558e-4704-8086-fa9df2bc3189",
     "title": "Inheritance",
     "content": "Subtypes ",
-    "timestamp": 1747875300053
+    "timestamp": 1749931075109
   },
   "references/eClassifiers/Throwable/references/eStructuralFeatures/supressed/index.html": {
     "path": "Throwable/References/supressed",
-    "link-uuid": "362355f2-fb34-46fe-be32-3c55adbd5d96",
+    "link-uuid": "ab6fc948-57b3-45b9-8cc2-80b7eefca688",
     "title": "supressed",
     "content": "Type Throwable Multiplicity 0..* Stack trace.",
-    "timestamp": 1747875300814
+    "timestamp": 1749931076012
   },
   "references/eClassifiers/Composite/references/eStructuralFeatures/id/index.html": {
     "path": "Composite/Attributes/id",
-    "link-uuid": "6ed1bd07-6a85-43ad-8d44-8f479813889f",
+    "link-uuid": "2bbc7883-7f7b-411f-b97a-db3606cf126f",
     "title": "id",
     "content": "Type EString Multiplicity 0..1 A unique identifier of this composite among its siblings.",
-    "timestamp": 1747875300106
+    "timestamp": 1749931075165
   },
   "references/eClassifiers/ListProperty/inheritance.html": {
     "path": "ListProperty/Inheritance",
-    "link-uuid": "26c36b71-ebea-4677-8e87-1702e8e969c7",
+    "link-uuid": "59f39ec3-3629-4d14-a7db-b960759bcdf1",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300392
+    "timestamp": 1749931075461
   },
   "references/eClassifiers/Long/inheritance.html": {
     "path": "Long/Inheritance",
-    "link-uuid": "cdd6e09c-fba1-4ecf-8995-f81f8711c090",
+    "link-uuid": "b73ddabb-ee14-4977-ba41-c84aef321d1d",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300408
+    "timestamp": 1749931075478
   },
   "references/eClassifiers/Period/references/eStructuralFeatures/duration/index.html": {
     "path": "Period/Attributes/duration",
-    "link-uuid": "471bdbd1-396f-4c03-b388-a364814eca52",
+    "link-uuid": "aeba3233-7c47-4c7f-84da-1a9db0c4488b",
     "title": "duration",
     "content": "Type Duration Multiplicity 0..1 Positive period duration in ISO-8601 durations format. E.g. P1M for one month or P20D for 20 days.",
-    "timestamp": 1747875300571
+    "timestamp": 1749931075653
   },
   "references/eClassifiers/Temporal/references/eOperations/plus-6/index.html": {
     "path": "Temporal/Operations/plus",
-    "link-uuid": "d985b806-fed1-4651-86f1-e19f63fc4cec",
+    "link-uuid": "e1104c2f-38d4-400f-9801-10d21ea7b0ff",
     "title": "plus",
     "content": "Type Temporal Multiplicity 0..1 Returns a temporal based on this one offset by the argument duration. Duration can be null - in this case it is treated as zero.",
-    "timestamp": 1747875300773
+    "timestamp": 1749931075956
   },
   "references/eClassifiers/Throwable/references/eStructuralFeatures/message/index.html": {
     "path": "Throwable/Attributes/message",
-    "link-uuid": "c8aa129c-9e51-48e9-bbb7-05845030c68e",
+    "link-uuid": "406b6f36-7943-4dba-92d0-2905cd32e61a",
     "title": "message",
     "content": "Type EString Multiplicity 0..1 Error message.",
-    "timestamp": 1747875300810
+    "timestamp": 1749931076006
   },
   "references/eClassifiers/ListProperty/index.html": {
-    "link-uuid": "47e835fa-0f9e-419a-8a81-6441240d8767",
+    "link-uuid": "b2377919-7dce-4bd2-a890-390c013d1ce0",
     "title": "ListProperty",
     "content": "A named/keyed list.",
-    "timestamp": 1747875300389
+    "timestamp": 1749931075459
   },
   "references/eClassifiers/Period/index.html": {
-    "link-uuid": "861652a5-20b0-4536-b383-83be8a7b4f40",
+    "link-uuid": "db955675-0f16-47d8-8c53-4f63f5c4ba7f",
     "title": "Period",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875300566
+    "timestamp": 1749931075647
   },
   "index.html": {
-    "link-uuid": "98f661e3-7029-464a-8315-bfaa87759916",
+    "link-uuid": "c724d285-aecb-415d-aed8-6abe8f2be200",
     "title": "ncore",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875300041
+    "timestamp": 1749931075095
   },
   "references/eClassifiers/Marker/index.html": {
-    "link-uuid": "762c6a69-4f6f-4617-a2df-d35ac9826b9e",
+    "link-uuid": "7e594e59-2261-4b33-a550-68be217bacc9",
     "title": "Marker",
     "content": "Provides information about location for a model element definition - URI, line and column numbers.",
-    "timestamp": 1747875300484
+    "timestamp": 1749931075560
   },
   "references/eClassifiers/IntegerProperty/index.html": {
-    "link-uuid": "561ff927-ebda-4680-947d-fec37a37947e",
+    "link-uuid": "adf6ecc9-2ac0-4bb2-aaed-94f8de2485d7",
     "title": "IntegerProperty",
     "content": "A named/keyed integer.",
-    "timestamp": 1747875300357
+    "timestamp": 1749931075424
   },
   "references/eClassifiers/TreeItemReference/inheritance.html": {
     "path": "TreeItemReference/Inheritance",
-    "link-uuid": "4a2206a1-8fe1-475f-b46a-9c4159b80175",
+    "link-uuid": "50d8e1d6-3e33-49bc-9789-594b5e916566",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300866
+    "timestamp": 1749931076071
   },
   "references/eClassifiers/Documented/references/eStructuralFeatures/documentation/index.html": {
     "path": "Documented/References/documentation",
-    "link-uuid": "7d88073a-16c6-4125-955a-6cf54af90d82",
+    "link-uuid": "defc9083-32eb-4ff1-b1ed-ced9f0d8d61e",
     "title": "documentation",
     "content": "Type EObject Multiplicity 0..* Element documentation.",
-    "timestamp": 1747875300181
+    "timestamp": 1749931075234
   },
   "references/eClassifiers/List/inheritance.html": {
     "path": "List/Inheritance",
-    "link-uuid": "696acc29-99ec-46b5-b304-b4fda3fa071b",
+    "link-uuid": "9429cf28-3d97-4986-b8ef-2a50c23d180c",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300373
+    "timestamp": 1749931075442
   },
   "references/eClassifiers/TreeItem/references/eStructuralFeatures/name/index.html": {
     "path": "TreeItem/Attributes/name",
-    "link-uuid": "bf2a1e01-5b33-487e-af10-c576d479701a",
+    "link-uuid": "43658940-8d42-442a-bf99-325999130f4d",
     "title": "name",
     "content": "Type EString Multiplicity 0..1",
-    "timestamp": 1747875300853
+    "timestamp": 1749931076059
   },
   "references/eClassifiers/RepresentationEntry/index.html": {
-    "link-uuid": "a9304902-90fa-41c1-afaa-cb45302822a2",
+    "link-uuid": "5157ab64-ac39-4b47-822d-5fb60b081da0",
     "title": "RepresentationEntry",
     "content": "Mapping of representation key to a representation resource uri. Null values are supported to suppress inherited entries.",
-    "timestamp": 1747875300623
+    "timestamp": 1749931075710
   },
   "references/eClassifiers/Temporal/references/eStructuralFeatures/instant/index.html": {
     "path": "Temporal/Attributes/instant",
-    "link-uuid": "8f81849d-87fa-4770-9b5a-e71623dddc2a",
+    "link-uuid": "777cc2c0-09db-4e97-96ab-d19797730884",
     "title": "instant",
     "content": "Type Instant Multiplicity 0..1 An absolute point on the time-line. E.g. 2021/07/04.",
-    "timestamp": 1747875300783
+    "timestamp": 1749931075966
   },
   "references/eClassifiers/MapProperty/inheritance.html": {
     "path": "MapProperty/Inheritance",
-    "link-uuid": "3597c292-71e8-4596-9267-d4535ffac395",
+    "link-uuid": "8e6d1fd1-88d1-40ef-b659-70c7a08f3253",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300455
+    "timestamp": 1749931075526
   },
   "references/eClassifiers/File/references/eStructuralFeatures/lastModified/index.html": {
     "path": "File/Attributes/lastModified",
-    "link-uuid": "162beac2-88e6-43c2-97f5-4880cb3424cf",
+    "link-uuid": "45c1c5e2-3eb6-4ff3-8faa-3f7472802c3e",
     "title": "lastModified",
     "content": "Type EDate Multiplicity 0..1",
-    "timestamp": 1747875300284
+    "timestamp": 1749931075343
   },
   "references/eClassifiers/Throwable/index.html": {
-    "link-uuid": "bc00e1cb-4313-4ff5-b83e-620eee3eb0c5",
+    "link-uuid": "afc912b6-334e-45b3-9ac4-95b91682df4e",
     "title": "Throwable",
     "content": "Models java.lang.Throwable.",
-    "timestamp": 1747875300804
+    "timestamp": 1749931075996
   },
   "references/eClassifiers/ModelElement/inheritance.html": {
     "path": "ModelElement/Inheritance",
-    "link-uuid": "c4713f15-4622-4323-b728-0552ccba2bad",
+    "link-uuid": "3ddcf557-43d0-4cc0-bfc4-7ee1140c8fa2",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300514
+    "timestamp": 1749931075593
   },
   "references/eClassifiers/TreeItem/inheritance.html": {
     "path": "TreeItem/Inheritance",
-    "link-uuid": "33e04e90-a56b-40a2-a723-78d8d97a564d",
+    "link-uuid": "847834ee-6d49-4e81-9e8a-d9fda7b24e92",
     "title": "Inheritance",
     "content": "Subtypes ",
-    "timestamp": 1747875300849
+    "timestamp": 1749931076056
   },
   "references/eClassifiers/String/inheritance.html": {
     "path": "String/Inheritance",
-    "link-uuid": "dee3ec43-c2a6-4c46-b80b-bc5cee008d7e",
+    "link-uuid": "6b43626a-373f-47da-98cd-3ab9a810b301",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300661
+    "timestamp": 1749931075769
   },
   "references/eClassifiers/Temporal/references/eOperations/coincides-2/index.html": {
     "path": "Temporal/Operations/coincides",
-    "link-uuid": "d04dd11c-8cc9-4400-9187-5c158752e6af",
+    "link-uuid": "782e7831-cab1-4f1e-9a14-0305ae707bbd",
     "title": "coincides",
     "content": "Type EBooleanObject Multiplicity 0..1 Tests if this temporal occurs at the same point on the time-line as the specified temporal. Returns null if unknown, i.e. two unrelated points in time.",
-    "timestamp": 1747875300748
+    "timestamp": 1749931075923
   },
   "references/eClassifiers/Temporal/references/eOperations/after-0/index.html": {
     "path": "Temporal/Operations/after",
-    "link-uuid": "f032cda3-bc2f-458d-b04e-fbddb2540185",
+    "link-uuid": "b99322c7-7cc5-44a4-b868-2d75cadc5262",
     "title": "after",
     "content": "Type EBooleanObject Multiplicity 0..1 Tests if this temporal is after the specified temporal. Returns null if unknown, i.e. two unrelated points in time.",
-    "timestamp": 1747875300738
+    "timestamp": 1749931075901
   },
   "references/eClassifiers/List/index.html": {
-    "link-uuid": "174da92a-4941-4f44-beed-0d70a1e4631c",
+    "link-uuid": "7f8133d0-e485-44e6-be6f-036238b41efa",
     "title": "List",
     "content": "A list of objects.",
-    "timestamp": 1747875300372
+    "timestamp": 1749931075440
   },
   "references/eClassifiers/ModelElement/references/eStructuralFeatures/uris/index.html": {
     "path": "ModelElement/Attributes/uris",
-    "link-uuid": "3efefb38-ef43-4708-aa91-76da236d4d77",
+    "link-uuid": "7d2919b9-eb22-4bb5-bcef-0fd8c8a15698",
     "title": "uris",
     "content": "Type EString Multiplicity 0..* Element URI&rsquo;s - there might be more than one. See NcoreUtil.getUris() for more details. URI&rsquo;s can be used for cross-referencing of elements in a resource-independent fashion.",
-    "timestamp": 1747875300528
+    "timestamp": 1749931075610
   },
   "references/eClassifiers/Integer/inheritance.html": {
     "path": "Integer/Inheritance",
-    "link-uuid": "9b5f61e5-00ac-4f53-ba7a-25e8f6253b1d",
+    "link-uuid": "8372e6f4-7f1d-4ae5-9601-d0e3effe71a6",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300343
+    "timestamp": 1749931075408
   },
   "references/eClassifiers/NamedElement/references/eStructuralFeatures/name/index.html": {
     "path": "NamedElement/Attributes/name",
-    "link-uuid": "7427ab01-79ec-4340-b55a-09b6e90afc79",
+    "link-uuid": "fe34ccaf-abf2-4411-9977-6a43f7811000",
     "title": "name",
     "content": "Type EString Multiplicity 0..1 Element name.",
-    "timestamp": 1747875300551
+    "timestamp": 1749931075632
   },
   "references/eClassifiers/DocumentedNamedElement/inheritance.html": {
     "path": "DocumentedNamedElement/Inheritance",
-    "link-uuid": "8e18a6e2-2f06-46df-a02d-102e310932d3",
+    "link-uuid": "07fd5bf5-041e-45b7-9f34-f8708794211b",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300195
+    "timestamp": 1749931075249
   },
   "references/eClassifiers/StackTraceElement/references/eStructuralFeatures/className/index.html": {
     "path": "StackTraceElement/Attributes/className",
-    "link-uuid": "6791b949-5a3a-48e6-af0b-a04bfdf88f60",
+    "link-uuid": "0e4c925d-7b5d-4c24-a693-fbaf2af37d3a",
     "title": "className",
     "content": "Type EString Multiplicity 0..1 Class name.",
-    "timestamp": 1747875300642
+    "timestamp": 1749931075740
   },
   "references/eClassifiers/GitMarker/references/eStructuralFeatures/head/index.html": {
     "path": "GitMarker/Attributes/head",
-    "link-uuid": "ae76b3d2-1b67-423c-9e64-1a284e8c97c0",
+    "link-uuid": "6d28f40e-49db-4992-a53f-35f5c0457feb",
     "title": "head",
     "content": "Type EString Multiplicity 0..1 Commit ID of the head",
-    "timestamp": 1747875300303
+    "timestamp": 1749931075364
   },
   "references/eClassifiers/ModelElement/references/eStructuralFeatures/annotations/index.html": {
     "path": "ModelElement/References/annotations",
-    "link-uuid": "33b41b75-6584-4ba8-844c-7919d1a420da",
+    "link-uuid": "4ff0cbbc-441a-4de8-8179-4b386d1e5e91",
     "title": "annotations",
     "content": "Type Property Multiplicity 0..* Annotations are used to store custom data similar to Java and Ecore annotations.",
-    "timestamp": 1747875300516
+    "timestamp": 1749931075595
   },
   "references/eClassifiers/Temporal/references/eStructuralFeatures/upperBounds/index.html": {
     "path": "Temporal/References/upperBounds",
-    "link-uuid": "be3dc063-14f9-45a5-ada9-d8ce87ec3364",
+    "link-uuid": "4a51e4ca-d706-4890-9ec8-f31a1ffa7cff",
     "title": "upperBounds",
     "content": "Type Temporal Multiplicity 0..* Upper bounds of a temporal. E.g. exact time of some temporal might not be known at a moment, but it might be known that it should not be after some other temporal - an upper bound. Upper bounds are used in validations and before/after computations.",
-    "timestamp": 1747875300790
+    "timestamp": 1749931075974
   },
   "references/eClassifiers/File/inheritance.html": {
     "path": "File/Inheritance",
-    "link-uuid": "0943dfaa-f637-4e66-b09c-21882c7c8484",
+    "link-uuid": "8e676b71-d431-4148-88e2-f10fd2aebe6d",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300281
+    "timestamp": 1749931075339
   },
   "references/eClassifiers/Temporal/references/eStructuralFeatures/base/index.html": {
     "path": "Temporal/References/base",
-    "link-uuid": "418538f5-c25b-4d7c-8854-d283a927d38a",
+    "link-uuid": "6502bc06-219b-49d5-a237-08723f22fcc2",
     "title": "base",
     "content": "Type Temporal Multiplicity 0..1 Base of this temporal.",
-    "timestamp": 1747875300779
+    "timestamp": 1749931075962
   },
   "references/eClassifiers/Tree/references/eStructuralFeatures/treeItems/index.html": {
     "path": "Tree/References/treeItems",
-    "link-uuid": "f29d846b-5ebc-4e4c-8d66-45f4f75c7fe2",
+    "link-uuid": "8d57bd69-20da-4d1a-aaaa-eadf88a233b6",
     "title": "treeItems",
     "content": "Type TreeItem Multiplicity 0..*",
-    "timestamp": 1747875300833
+    "timestamp": 1749931076041
   },
   "references/eClassifiers/Property/index.html": {
-    "link-uuid": "084b2dc4-2de3-4a64-810e-0d27745babb9",
+    "link-uuid": "b8e3c86d-3d41-43b4-9edf-7fce55167ba1",
     "title": "Property",
     "content": "Base class for keyed values.",
-    "timestamp": 1747875300588
+    "timestamp": 1749931075672
   },
   "references/eClassifiers/Period/references/eStructuralFeatures/end/index.html": {
     "path": "Period/References/end",
-    "link-uuid": "befcce9c-a8e4-45d3-a6cf-61dbc5ee07e3",
+    "link-uuid": "3c870306-ee22-42b1-85bc-550fd5ff68a8",
     "title": "end",
     "content": "Type Temporal Multiplicity 0..1 Period end.",
-    "timestamp": 1747875300573
+    "timestamp": 1749931075655
   },
   "references/eClassifiers/Throwable/references/eStructuralFeatures/cause/index.html": {
     "path": "Throwable/References/cause",
-    "link-uuid": "e31e5ddf-3a8c-49c9-8519-cc2d665bd051",
+    "link-uuid": "d30fda71-100a-4173-8b54-6d7bdab1df1e",
     "title": "cause",
     "content": "Type Throwable Multiplicity 0..1 Stack trace.",
-    "timestamp": 1747875300808
+    "timestamp": 1749931076003
   },
   "references/eClassifiers/GitMarker/references/eStructuralFeatures/branch/index.html": {
     "path": "GitMarker/Attributes/branch",
-    "link-uuid": "be37e5a1-67b2-4b8e-a2f4-f40434909cc1",
+    "link-uuid": "68ca000e-c1f2-419f-95eb-f5d76306c330",
     "title": "branch",
     "content": "Type EString Multiplicity 0..1 Short branch name",
-    "timestamp": 1747875300301
+    "timestamp": 1749931075363
   },
   "references/eClassifiers/StackTraceElement/references/eStructuralFeatures/methodName/index.html": {
     "path": "StackTraceElement/Attributes/methodName",
-    "link-uuid": "87746af4-fba1-4e4c-a6fd-ea18f6713d46",
+    "link-uuid": "f02d15bc-2539-4541-8b3a-956d17ad1fc6",
     "title": "methodName",
     "content": "Type EString Multiplicity 0..1 Method name.",
-    "timestamp": 1747875300647
+    "timestamp": 1749931075754
   },
   "references/eClassifiers/StringEntry/references/eStructuralFeatures/key/index.html": {
     "path": "StringEntry/Attributes/key",
-    "link-uuid": "49cd06a4-20dc-4a59-b2dd-34095574125d",
+    "link-uuid": "b3b15e47-dbde-49db-8504-65da080eb406",
     "title": "key",
     "content": "Type EString Multiplicity 1 Entry key.",
-    "timestamp": 1747875300686
+    "timestamp": 1749931075809
   },
   "references/eClassifiers/IMarker/inheritance.html": {
     "path": "IMarker/Inheritance",
-    "link-uuid": "71655e21-536a-4cdd-8962-1226339e7cd2",
+    "link-uuid": "daa355af-528b-4216-b90b-c75e32c72a0f",
     "title": "Inheritance",
     "content": "Subtypes ",
-    "timestamp": 1747875300329
+    "timestamp": 1749931075393
   },
   "references/eClassifiers/DocumentedNamedStringIdentity/inheritance.html": {
     "path": "DocumentedNamedStringIdentity/Inheritance",
-    "link-uuid": "a7c07b0c-0ba4-479f-8798-9758b2ac941a",
+    "link-uuid": "395798fd-03f0-42ff-b165-3cd0241e80f5",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875300212
+    "timestamp": 1749931075265
   },
   "references/eClassifiers/Marker/references/eStructuralFeatures/position/index.html": {
     "path": "Marker/Attributes/position",
-    "link-uuid": "b8699a43-73e4-44b2-84b2-783342e2d72c",
+    "link-uuid": "fd18c0a4-c3ff-4a8f-86d4-f1af0dff9adc",
     "title": "position",
     "content": "Type EString Multiplicity 0..1 Marker position withing the resource identified by location - line and column in text documents, sheet and range in Excel, &hellip;",
-    "timestamp": 1747875300494
+    "timestamp": 1749931075572
   },
   "references/eClassifiers/Documented/inheritance.html": {
     "path": "Documented/Inheritance",
-    "link-uuid": "90f01fb8-4874-400d-bb72-a8c5adb639e2",
+    "link-uuid": "259c1bd7-f915-47e9-a935-b829fa4962b1",
     "title": "Inheritance",
     "content": "Subtypes ",
-    "timestamp": 1747875300177
+    "timestamp": 1749931075230
   },
   "references/eClassifiers/Temporal/references/eStructuralFeatures/lowerBounds/index.html": {
     "path": "Temporal/References/lowerBounds",
-    "link-uuid": "912f2e75-35fc-4682-ac20-94fb1a676076",
+    "link-uuid": "26976d08-53fe-462a-b6e6-9c9d89797ef3",
     "title": "lowerBounds",
     "content": "Type Temporal Multiplicity 0..* Lower bounds of a temporal. E.g. exact time of some temporal might not be known at a moment, but it might be known that it should not be before than some other temporal - a lower bound. Lower bounds are used in validations and before/after computations.",
-    "timestamp": 1747875300785
+    "timestamp": 1749931075967
   },
   "references/eClassifiers/Date/inheritance.html": {
     "path": "Date/Inheritance",
-    "link-uuid": "1c8a15b5-6023-43b8-a50a-6ed7bbb60ba8",
+    "link-uuid": "23dcfd91-5196-467a-985e-2b773fca642c",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300120
+    "timestamp": 1749931075181
   },
   "references/eClassifiers/Temporal/references/eStructuralFeatures/offset/index.html": {
     "path": "Temporal/Attributes/offset",
-    "link-uuid": "a156943a-3a4b-4a36-be81-c79c51f46064",
+    "link-uuid": "a85021f8-1c18-4637-9bb8-090a84b7697b",
     "title": "offset",
     "content": "Type Duration Multiplicity 0..1 Time offset from the base in ISO-8601 durations format. Examples: P1H for one hour later. -P20D or P-20D for 20 days before. Can be null (zero), e.g. if one period starts right after another period ends.",
-    "timestamp": 1747875300787
+    "timestamp": 1749931075971
   },
   "references/eClassifiers/Boolean/inheritance.html": {
     "path": "Boolean/Inheritance",
-    "link-uuid": "26c3c43b-6349-44a2-833b-1a8c40467ca8",
+    "link-uuid": "9924dc58-bdce-43ba-b895-0428112ab9f0",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300065
+    "timestamp": 1749931075122
   },
   "references/eClassifiers/LongProperty/index.html": {
-    "link-uuid": "ddfb8d1c-74cc-443b-8d1d-45c7ce0aa3cf",
+    "link-uuid": "1879fa0f-9dfe-4eb4-9757-276bdfa4bdc0",
     "title": "LongProperty",
     "content": "A named/keyed integer.",
-    "timestamp": 1747875300422
+    "timestamp": 1749931075491
   },
   "references/eClassifiers/ModelElement/references/eStructuralFeatures/labelPrototype/index.html": {
     "path": "ModelElement/References/labelPrototype",
-    "link-uuid": "eb731d47-9459-491e-9ed9-656aa2c694e6",
+    "link-uuid": "9ad959c3-f3b2-4a93-8627-f75083fe1ca6",
     "title": "labelPrototype",
     "content": "Type EObject Multiplicity 0..1 If this reference is not set then EObjectLabelBuilder creates a new Label of its subclass (Link or Action) using AppFactory in newLabel() method. If this reference is set and is and instanceof Label then a copy of the label is created and returned. Otherwise the reference value it is adapted to LabelProvider which is used to create a label. This allows to merge labels and chain label generation.",
-    "timestamp": 1747875300519
+    "timestamp": 1749931075599
   },
   "references/eClassifiers/ModelElement/references/eStructuralFeatures/representations/load-specification.html": {
     "path": "ModelElement/References/representations/Load specification",
-    "link-uuid": "ba36e0dd-977f-4cd2-9d8c-2c121e91385c",
+    "link-uuid": "d937388b-07bd-43b9-82ab-e190a9a17fdd",
     "title": "Load specification",
     "content": "Load Key representations Default Multiplicity Homogeneous Strict Containment Exclusive With Description Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875300526
+    "timestamp": 1749931075608
   },
   "references/eClassifiers/String/index.html": {
-    "link-uuid": "f747b547-ba29-45a0-98ed-7f9375b76224",
+    "link-uuid": "ea74d747-299b-401f-8fc8-6566291dc8f5",
     "title": "String",
     "content": "Text/string.",
-    "timestamp": 1747875300659
+    "timestamp": 1749931075767
   },
   "references/eClassifiers/MapProperty/index.html": {
-    "link-uuid": "7c546b8a-1b45-4b01-84e2-e77799c0f195",
+    "link-uuid": "0b6c5a89-efb3-4b03-9696-409f07e8cffa",
     "title": "MapProperty",
     "content": "A named/keyed map.",
-    "timestamp": 1747875300453
+    "timestamp": 1749931075524
   },
   "references/eClassifiers/Map/references/eStructuralFeatures/value/index.html": {
     "path": "Map/References/value",
-    "link-uuid": "2bc268cb-9d39-4c27-8bb3-e7e6abae5242",
+    "link-uuid": "f4e84d1b-5f2c-4f95-b87b-6e8aae4a5d20",
     "title": "value",
     "content": "Type Property Multiplicity 0..* Map entries",
-    "timestamp": 1747875300441
+    "timestamp": 1749931075512
   },
   "references/eClassifiers/StringEntry/index.html": {
-    "link-uuid": "7cde6015-7dfc-4268-9375-7122992087a0",
+    "link-uuid": "cdcc10fd-7742-4ed6-a2c1-8bf0878074b6",
     "title": "StringEntry",
     "content": "EMap entry with String value",
-    "timestamp": 1747875300682
+    "timestamp": 1749931075800
   },
   "references/eClassifiers/Documented/index.html": {
-    "link-uuid": "136b19dc-83b1-4e27-9dc7-db16d29d76f2",
+    "link-uuid": "3f58e1d9-ed41-48b3-816d-f97e557b13ff",
     "title": "Documented",
     "content": "Mix-in interface for classess with documentation.",
-    "timestamp": 1747875300175
+    "timestamp": 1749931075228
   },
   "references/eClassifiers/Marked/inheritance.html": {
     "path": "Marked/Inheritance",
-    "link-uuid": "5f78e133-515a-4904-bc62-85760fde2d04",
+    "link-uuid": "45d6ac76-4479-480b-b60c-e34dd3a96f8e",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300470
+    "timestamp": 1749931075545
   },
   "references/eClassifiers/Double/inheritance.html": {
     "path": "Double/Inheritance",
-    "link-uuid": "b23e36f9-c6e6-4940-a507-3d36986cebe1",
+    "link-uuid": "25bbb26f-5f89-4d5c-aad0-ffe3efd27f23",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300227
+    "timestamp": 1749931075284
   },
   "references/eClassifiers/Marker/references/eStructuralFeatures/date/index.html": {
     "path": "Marker/Attributes/date",
-    "link-uuid": "7d264e1a-2239-4396-abbb-11446c442ad0",
+    "link-uuid": "0376d32b-b33c-42b7-8ac9-b6d9c57ff879",
     "title": "date",
     "content": "Type EDate Multiplicity 0..1 When this marker was created, source data timestamp",
-    "timestamp": 1747875300491
+    "timestamp": 1749931075568
   },
   "references/eClassifiers/ModelElement/references/eStructuralFeatures/representations/index.html": {
     "path": "ModelElement/References/representations",
-    "link-uuid": "7f7ceb28-f940-48db-ad05-d733f8b4b658",
+    "link-uuid": "a47247e4-2eae-407f-88be-cf65d0313e35",
     "title": "representations",
     "content": "Type RepresentationEntry Multiplicity 0..* Mapping of representation keys to URI&rsquo;s of representation resources. URI&rsquo;s are resolved relative to the model element resource URI. During object loading resources are loaded and linked to the object. Additional processing depends on the resource type. In case of Drawio diagrams, diagram elements are semantically mapped to model elements and representation resource root elements are added as children to the object. See Nasdanika Core Drawio and Nasdanika Core EMF documentation for more information.",
-    "timestamp": 1747875300524
+    "timestamp": 1749931075604
   },
   "references/eClassifiers/Temporal/references/eOperations/minus-4/references/eParameters/when/index.html": {
     "path": "Temporal/Operations/minus/Parameters/when",
-    "link-uuid": "42752765-8c5f-4ad6-84ec-b9714999b49f",
+    "link-uuid": "4d686fcd-f839-48a1-8776-c64f8dc81755",
     "title": "when",
     "content": "Type Temporal Multiplicity 0..1",
-    "timestamp": 1747875300762
+    "timestamp": 1749931075943
   },
   "references/eClassifiers/Date/index.html": {
-    "link-uuid": "cfe77367-844d-4f0c-97d5-2bb266447dd9",
+    "link-uuid": "61f302b2-db76-43b4-b4b5-151cd64796d1",
     "title": "Date",
     "content": "Represents integer number.",
-    "timestamp": 1747875300119
+    "timestamp": 1749931075179
   },
   "references/eClassifiers/EObjectProperty/references/eStructuralFeatures/value/index.html": {
     "path": "EObjectProperty/References/value",
-    "link-uuid": "90fc5016-d8ae-4c48-ad0b-a2950a6844e0",
+    "link-uuid": "9bf9417d-9103-431d-a4ee-c4ea9eb1cee6",
     "title": "value",
     "content": "Type EObject Multiplicity 1 Property value.",
-    "timestamp": 1747875300267
+    "timestamp": 1749931075323
   },
   "references/eClassifiers/Marker/references/eStructuralFeatures/location/index.html": {
     "path": "Marker/Attributes/location",
-    "link-uuid": "039f4a8b-4e65-4381-acc2-bdeac553d133",
+    "link-uuid": "22bd6bdc-20e1-4441-93be-ccdbc0ed75f1",
     "title": "location",
     "content": "Type EString Multiplicity 0..1 URI of a resource.",
-    "timestamp": 1747875300493
+    "timestamp": 1749931075570
   },
   "references/eClassifiers/Throwable/references/eStructuralFeatures/stackTrace/index.html": {
     "path": "Throwable/References/stackTrace",
-    "link-uuid": "fc6ad679-30ae-418d-9875-3409953d2398",
+    "link-uuid": "cfdc11cd-ebfd-4777-8e0a-32ba3b7b13ba",
     "title": "stackTrace",
     "content": "Type StackTraceElement Multiplicity 0..* Stack trace.",
-    "timestamp": 1747875300812
+    "timestamp": 1749931076009
   },
   "references/eClassifiers/GitMarker/references/eStructuralFeatures/headRefs/index.html": {
     "path": "GitMarker/Attributes/headRefs",
-    "link-uuid": "03679450-01e8-49cf-8d4b-61bf11f72cf2",
+    "link-uuid": "b299aebd-9263-4f35-b507-368271ae1af6",
     "title": "headRefs",
     "content": "Type EString Multiplicity 0..* Refs on the head commit excluding the head itself. E.g. branch, tags.",
-    "timestamp": 1747875300305
+    "timestamp": 1749931075365
   },
   "references/eClassifiers/Instant/index.html": {
-    "link-uuid": "d1518869-fea2-4fa4-9304-8db719a6cdd4",
+    "link-uuid": "14ef0eb2-7401-46c1-8fce-a2cdf91bc746",
     "title": "Instant",
     "content": "Instant is a single instantaneous point on the time-line. If instant specification contains Z, then it is parsed using Instant.parse() method. Otherwise the specification is used to construct java.util.Date which is then converted to instant. Examples: 2021-12-03T10:15:30.00Z - loaded using Instant.parse() 10/1/2021 - loaded using new Date() and then converted to instant.",
-    "timestamp": 1747875300331
+    "timestamp": 1749931075395
   },
   "references/eClassifiers/DateProperty/index.html": {
-    "link-uuid": "afd7e269-e6b2-4fe9-9395-d4ebf421cadc",
+    "link-uuid": "134e5a1e-2350-4d87-84c6-0a0d7997e3d7",
     "title": "DateProperty",
     "content": "A named/keyed integer.",
-    "timestamp": 1747875300134
+    "timestamp": 1749931075195
   },
   "references/eClassifiers/Reference/index.html": {
-    "link-uuid": "eb4017c9-248e-4f53-8fc7-b5940b968003",
+    "link-uuid": "f04a14dd-0340-45e6-8239-5bdee0c53950",
     "title": "Reference",
     "content": "Object reference. May be used in containment collections to point to an object contained elsewhere.",
-    "timestamp": 1747875300604
+    "timestamp": 1749931075691
   },
   "references/eClassifiers/Marker/references/eStructuralFeatures/comment/index.html": {
     "path": "Marker/Attributes/comment",
-    "link-uuid": "7a740b3f-42e2-4c8d-890e-42001eacc86c",
+    "link-uuid": "0b7ae65f-15e1-4894-bd9b-9da2e1d0a8ba",
     "title": "comment",
     "content": "Type EString Multiplicity 0..1 Optional marker comment providing additional information about the marker. E.g. for locations which do not support lines and colums it may provide position inside the resource identified by the location attribute, such as an XPath for XML documents or sheet name and a range for Excel documents.",
-    "timestamp": 1747875300489
+    "timestamp": 1749931075566
   },
   "references/eClassifiers/EObjectProperty/index.html": {
-    "link-uuid": "7c4cbc14-bd57-47e5-8520-197eeb0516eb",
+    "link-uuid": "83d0f90e-5c2b-401b-b85e-6361fbe09e03",
     "title": "EObjectProperty",
     "content": "A named/keyed object.",
-    "timestamp": 1747875300262
+    "timestamp": 1749931075318
   },
   "references/eClassifiers/Property/inheritance.html": {
     "path": "Property/Inheritance",
-    "link-uuid": "f4c04c54-490c-4319-972c-6981a088c37c",
+    "link-uuid": "6415962a-dc50-4e91-a48a-b68658bf78bd",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875300590
+    "timestamp": 1749931075675
   }
 }
